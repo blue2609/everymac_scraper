@@ -8,7 +8,7 @@ The command above will create `everymac_scraper` mamba/conda virtual environment
 
 # Running the spider
 
-In order to run the spider, navigate to the root directory of the project and then run `scrapy crawl macbook -o <some_output_filename>.csv`
+In order to run the spider, navigate to the root directory of the project and then run `scrapy crawl everymac_spider -o <some_output_filename>.csv`
 
 You can see that there are 2 outputs already available inside `output_csv` folder:
 - `macbook_pro.csv` contains hardware spec details for all Apple MacBook Pro lineup (MacBook Pro 16", MacBook Pro 15", etc.)
